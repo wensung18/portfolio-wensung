@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery | Parasite</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lora&family=Raleway:ital@1&family=Young+Serif&display=swap" rel="stylesheet">
+<style>
+	#header {
+		background-image: url("img/background.jpeg");
+		height:400px;
+		background-position:center;
+	}
+	#main {
+		background-color:#437043;
+		width:1000px;
+		margin:0 auto;
+	}
+	.landscape {
+		width:auto;
+		height:100%;
+		display:flex;
+		justify-content:center;
+	}
+	.row {
+		float:left;
+		width:1000px;
+		height:250px;
+		background-color:#437043;
+		overflow:hidden;
+		margin-bottom: 5px;
+	}
+	.scenes {
+		background-color:white;
+		height:250px;
+		overflow:hidden;
+		float:left;
+		margin:5px;
+		display:flex;
+		justify-content:center;
+	}
+	#scene1 {
+		width:300px;
+	}
+	#scene2 {
+		width:400px;
+	}
+	#scene3 {
+		width:270px;
+	}
+	#scene4 {
+		width:230px;
+	}
+	#scene5 {
+		width:330px;
+	}
+	#scene6 {
+		width:210px;
+	}
+	#scene7 {
+		width:190px;
+	}
+	#scene8 {
+		width:350px;
+	}
+	#scene9 {
+		width:340px;
+	}
+	#scene10 {
+		width:280px;
+	}
+	.overlay {
+			background-color: rgba(0, 0, 0, 0.6);
+			color:#fff;
+			position:absolute;
+			text-align:center;
+			visibility:hidden;
+			margin:0 auto;
+	}
+	.scenes:hover .overlay {
+			visibility:visible;
+		}
+
+	#scene1 .overlay {
+		height:150px;
+		width:300px;
+		line-height:213px;
+	}
+	#scene2 .overlay {
+		height:245px;
+		width:400px;
+		line-height:213px;
+	}
+	#scene3 .overlay {
+		height:245px;
+		width:270px;
+		line-height:213px;
+	}
+	#scene4 .overlay {
+		height:245px;
+		width:230px;
+		line-height:213px;
+	}
+	#scene5 .overlay {
+		height:245px;
+		width:330px;
+		line-height:213px;
+	}
+	#scene6 .overlay {
+		height:245px;
+		width:210px;
+		line-height:213px;
+	}
+	#scene7 .overlay {
+		height:245px;
+		width:190px;
+		line-height:213px;
+	}
+	#scene8 .overlay {
+		height:245px;
+		width:350px;
+		line-height:213px;
+	}
+	#scene9 .overlay {
+		height:245px;
+		width:340px;
+		line-height:213px;
+	}
+	#scene10 .overlay {
+		height:245px;
+		width:280px;
+		line-height:213px;
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Gallery</h1>
+	</div>
+	<div id="nav-wrapper">
+	<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a>
+					<ul>
+						<li><a href="index.html#gotoabout">About</a></li>
+						<li><a href="index.html#gotothemes">Themes and Interpretations</a></li>
+						<li><a href="index.html#gotolegacy">Legacy and Accolades</a></li>
+					</ul>
+				</li>
+				<li><a href="gallery.html" class="active">Gallery</a></li>
+			</ul>
+	</div>
+	</div>
+	<div id="main">
+		<div class="row">
+			<div class="scenes" id="scene1">
+				<img class="landscape" src="img/scene1.jpeg" alt="Doorbell">
+				<div class="overlay">
+					<p>Jessica Jingle</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene2">
+				<img class="landscape" src="img/scene2.jpeg" alt="Wifi">
+				<div class="overlay">
+					<p>Wifi Problems</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene3">
+				<img class="landscape" src="img/scene3.jpg" alt="Scare Mom">
+				<div class="overlay">
+					<p>Seeing blood</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="scenes" id="scene4">
+				<img class="landscape" src="img/scene4.jpg" alt="Rock">
+				<div class="overlay">
+					<p>The Scholar's Stone</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene5">
+				<img class="landscape" src="img/scene5.jpeg" alt="Dinner">
+				<div class="overlay">
+					<p>Living lavish</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene6">
+				<img class="landscape" src="img/scene6.jpeg" alt="Whispering">
+				<div class="overlay">
+					<p>Whispering secrets</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene7">
+				<img class="landscape" src="img/scene7.jpeg" alt="Sewer">
+				<div class="overlay">
+					<p>Flooded home</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="scenes" id="scene8">
+				<img class="landscape" src="img/scene8.png" alt="House">
+				<div class="overlay">
+					<p>While the rich are away</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene9">
+				<img class="landscape" src="img/scene9.jpeg" alt="Birthday">
+				<div class="overlay">
+					<p>Da-song's birthday</p>
+				</div>
+			</div>
+			<div class="scenes" id="scene10">
+				<img class="landscape" src="img/scene10.jpeg" alt="Downstaris">
+				<div class="overlay">
+					<p>Watching from below</p>
+				</div>
+			</div>
+		</div>
+	<div class="clearfloat"></div>
+	</div>
+	<div id="footer">
+		<p><em>Catch it on HULU</em></p>
+	</div>
+</body>
+</html>
